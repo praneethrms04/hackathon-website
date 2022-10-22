@@ -3,6 +3,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { DropdownButton, Dropdown } from "react-bootstrap";
 
+import {AiFillCloseCircle} from "react-icons/ai"
+
 const SearchPage = () => {
   return (
     <div
@@ -57,15 +59,17 @@ const SearchPage = () => {
             </div>
           </div>
           <div className="w-50 justify-content-center mt-5 ms-5">
+          <div className="ms-5 ">
             <Button variant="secondary" className="ms-5">
-              Upcoming
+              Upcoming <AiFillCloseCircle/>
             </Button>
             <Button variant="secondary" className="ms-4">
-              Post
+              Post<AiFillCloseCircle/>
             </Button>
             <Button variant="secondary" className="ms-4 ">
-              Easy
+              Easy <AiFillCloseCircle/>
             </Button>
+            </div>
           </div>
         </Form>
       </Container>

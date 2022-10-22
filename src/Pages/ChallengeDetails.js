@@ -28,7 +28,7 @@ const ChallengeDetails = () => {
           </Form.Group>
           <Form.Group className="mt-2 w-50 ms-5">
             <Form.Label className="mt-3 fw-bold">Start Date</Form.Label>
-            <Form.Control className="mt-3" value=" 17th Jun'22 09:00 PM" />
+            <Form.Control className="mt-3" value="17th Jun'22 09:00 PM" />
           </Form.Group>
           <Form.Group className="mt-2 w-50 ms-5">
             <Form.Label className="mt-3 fw-bold">End Date</Form.Label>
@@ -45,7 +45,8 @@ const ChallengeDetails = () => {
           </Form.Group>
           <Form.Group className="mt-2 w-50 ms-5">
             <Form.Label className="mt-3 fw-bold">Image</Form.Label>
-            <Form.Control className="mt-3" placeholder="upload Image" />
+            <Form.Control className="mt-3" placeholder="upload Image">
+            </Form.Control>
           </Form.Group>
           <Form.Group className="mt-2 w-50 ms-5">
             <Form.Label className="mt-3 fw-bold">Level Type</Form.Label>
