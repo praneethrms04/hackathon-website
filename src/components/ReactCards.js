@@ -107,7 +107,6 @@ function ReactCards() {
                  {data.button}
                 </Button>
               </div>
-
               <Card.Body className="text-center">
                 <Card.Title>{data.title}</Card.Title>
                 <Card.Text className="h5 mt-4">{data.status}</Card.Text>

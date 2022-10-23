@@ -2,10 +2,12 @@ import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/esm/Button";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import Navbar from "../components/Navbar";
 
 const ChallengeDetails = () => {
   return (
     <>
+    <Navbar />
       <div
         style={{
           width: "1440px",
