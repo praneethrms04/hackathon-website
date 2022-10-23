@@ -1,8 +1,10 @@
+import {Link} from "react-router-dom"
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/esm/Button";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Navbar from "../components/Navbar";
+
 
 const ChallengeDetails = () => {
   return (
@@ -60,9 +62,11 @@ const ChallengeDetails = () => {
             className="text-dark "
           ></DropdownButton>
           </div>
+          <Link to="/">
           <Button variant="success" className="text-center ms-5 mt-4">
             Save Changes
           </Button>
+          </Link>
         </Container>
       </div>
     </>

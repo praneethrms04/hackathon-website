@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import Container from "react-bootstrap/Container";
 import { Row, Col, Button } from "react-bootstrap";
 
@@ -29,11 +30,14 @@ const Intro = () => {
                 competitions.
               </p>
             </div>
+            <Link to="/challengedetails" >
             <div className="mt-5">
               <Button className="bg-light text-dark btn-outline-light">
                 <p className="h5">Create Challenge</p>
               </Button>
             </div>
+            </Link>
+           
           </Col>
           <Col className="d-flex flex-row-reverse mt-5">
             <div className="mt-4">

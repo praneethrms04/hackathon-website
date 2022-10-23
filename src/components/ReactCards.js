@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -118,11 +119,13 @@ function ReactCards() {
                     <div className="col fw-bolder">{data.timingName}</div>
                   </div>
                 </div>
+                <Link to="/bootcamp">
                 <div className="mt-4">
                   <Button variant="success">
                   <FaCheckCircle className="h6 mt-1" /> Participate Now
                   </Button>
                 </div>
+                </Link>
               </Card.Body>
             </Card>
           </Col>

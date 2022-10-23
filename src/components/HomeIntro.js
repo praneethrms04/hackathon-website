@@ -2,6 +2,8 @@ import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 
 import Ai from "../assets/icons/Ai.svg";
+import Contact from "../assets/icons/Contact.svg"
+import Challenge from "../assets/icons/Challenge.svg"
 
 const HomeIntro = () => {
   return (
@@ -39,7 +41,7 @@ const HomeIntro = () => {
               <div className="me-4">
                 {/* <img src={Icon2} alt="" /> */}
                 {/* <img src={Icon3} alt="" /> */}
-                <img src={Ai} alt="Imgs" />
+                <img src={Contact} alt="Imgs" />
               </div>
               <div className="ms-2">
                 <p className="h2">50k+</p>
@@ -61,7 +63,7 @@ const HomeIntro = () => {
               <div className="me-4">
                 {/* <img src={Icon2} alt="" /> */}
                 {/* <img src={Icon3} alt="" /> */}
-                <img src={Ai} alt="Imgs" />
+                <img src={Challenge} alt="Imgs" />
               </div>
               <div className="ms-2">
                 <p className="h2">100+ +</p>

@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -42,10 +43,11 @@ const Bootcamp = () => {
             </div>
           </Container>
           <div className="d-flex">
+          <Link to="/challengedetails" className="me-3" >
             <Button variant="success" className="ms-3 w-100">
             Edit
-              
             </Button>
+            </Link>
             <Button variant="outline-danger" className="ms-3 w-50">
               Delete
             </Button>
@@ -55,7 +57,7 @@ const Bootcamp = () => {
         <div>
         <Container className="mt-5" >
         <div className="ms-2 ">
-        <h5 className="ms-4 text-secondary">
+        <h5 className="text-secondary">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
             ullam ut eligendi magnam, voluptates adipisci assumenda accusamus
             itaque doloremque sequi quam molestiae, nemo natus! Perferendis
@@ -63,14 +65,14 @@ const Bootcamp = () => {
           </h5>
         </div>
         <div className="ms-2 mt-4">
-        <h5 className="ms-4 text-secondary ">
+        <h5 className="text-secondary ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
             ullam ut eligendi magnam, voluptates adipisci assumenda accusamus
             itaque doloremque sequi quam molestiae, nemo natus! Perferendis
             praesentium atque sint neque consectetur!
           </h5>
         </div>  <div className="ms-2 mt-4">
-        <h5 className="ms-4 text-secondary ">
+        <h5 className="text-secondary ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
             ullam ut eligendi magnam, voluptates adipisci assumenda accusamus
             itaque doloremque sequi quam molestiae..
