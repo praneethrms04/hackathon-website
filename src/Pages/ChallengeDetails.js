@@ -22,7 +22,7 @@ const ChallengeDetails = () => {
         </Container>
       </div>
       <div className="mt-4">
-        <Container className="">
+        <Container>
           <Form.Group className="mt-2 w-50 ms-5">
             <Form.Label className="mt-3 fw-bold">Challeng name</Form.Label>
             <Form.Control
